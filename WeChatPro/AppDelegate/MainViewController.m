@@ -72,6 +72,7 @@
     WSTabBarItem *meTabBarItem         = [[WSTabBarItem alloc] initWithTitle:@"我"
                                                                        image:squareImage
                                                                selectedImage:squareImage];
+
     
     self.viewControllers = @[ [self viewController:@"ProductViewController"      tabBarItem:homeTabBarItem],
                               [self viewController:@"SquareViewController"       tabBarItem:categoryTabBarItem],

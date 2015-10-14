@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "GoodsListTableViewCell.h"
+#import "MJRefresh.h"
+#import "AFNetworking.h"
+#import "NetworkManager.h"
 @interface ProductViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong)UITableView *GoodsTableView;
+@property (nonatomic, assign) BOOL isUpLoading;
+@property (nonatomic, assign) NSInteger pageIndex;
+
 @end
+

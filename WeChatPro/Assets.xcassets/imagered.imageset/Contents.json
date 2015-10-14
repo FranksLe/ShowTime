@@ -6,11 +6,18 @@
     },
     {
       "idiom" : "universal",
+<<<<<<< HEAD
+=======
+      "filename" : "mainicon-ground2@3x.png",
+>>>>>>> 42036ec3a45ec5340e9aaf98e4647bf2c071596d
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+<<<<<<< HEAD
       "filename" : "mainicon-ground2@3x.png",
+=======
+>>>>>>> 42036ec3a45ec5340e9aaf98e4647bf2c071596d
       "scale" : "3x"
     }
   ],
