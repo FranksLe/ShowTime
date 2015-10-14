@@ -133,7 +133,7 @@ static NSString * kUIImageSize = @"kUIImageSize";
 
 + (UIImage*)blackColorImage
 {
-    return [self resizableImageWithColor:[UIColor blackColor]];
+    return [self resizableImageWithColor:[UIColor whiteColor]];
 }
 
 + (UIImage*)darkGrayColorImage

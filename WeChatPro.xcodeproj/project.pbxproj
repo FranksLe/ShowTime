@@ -113,6 +113,10 @@
 		259F51551BCE2DE40046D761 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 259F51371BCE2DE40046D761 /* libopencore-amrnb.a */; settings = {ASSET_TAGS = (); }; };
 		259F51561BCE2DE40046D761 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 259F513B1BCE2DE40046D761 /* libopencore-amrwb.a */; settings = {ASSET_TAGS = (); }; };
 		259F51571BCE2DE40046D761 /* TimeoutAFHTTPRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F513D1BCE2DE40046D761 /* TimeoutAFHTTPRequestSerializer.m */; settings = {ASSET_TAGS = (); }; };
+		259F515A1BCE3DEE0046D761 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51591BCE3DEE0046D761 /* ProductViewController.m */; settings = {ASSET_TAGS = (); }; };
+		259F515D1BCE3E0B0046D761 /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F515C1BCE3E0B0046D761 /* FoundViewController.m */; settings = {ASSET_TAGS = (); }; };
+		259F51601BCE3E1C0046D761 /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F515F1BCE3E1C0046D761 /* SquareViewController.m */; settings = {ASSET_TAGS = (); }; };
+		259F51631BCE3E280046D761 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51621BCE3E280046D761 /* MineViewController.m */; settings = {ASSET_TAGS = (); }; };
 		E3106CD8EFEE1A8BADAD7866 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F2D79875B68EA377AE0D1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -423,6 +427,14 @@
 		259F513B1BCE2DE40046D761 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
 		259F513C1BCE2DE40046D761 /* TimeoutAFHTTPRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeoutAFHTTPRequestSerializer.h; sourceTree = "<group>"; };
 		259F513D1BCE2DE40046D761 /* TimeoutAFHTTPRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeoutAFHTTPRequestSerializer.m; sourceTree = "<group>"; };
+		259F51581BCE3DEE0046D761 /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		259F51591BCE3DEE0046D761 /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		259F515B1BCE3E0B0046D761 /* FoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundViewController.h; sourceTree = "<group>"; };
+		259F515C1BCE3E0B0046D761 /* FoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundViewController.m; sourceTree = "<group>"; };
+		259F515E1BCE3E1C0046D761 /* SquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareViewController.h; sourceTree = "<group>"; };
+		259F515F1BCE3E1C0046D761 /* SquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
+		259F51611BCE3E280046D761 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		259F51621BCE3E280046D761 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		8B0F2D79875B68EA377AE0D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1945406AAEF861A7DF7A11F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A583F516159947E600FD2CA8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -754,6 +766,8 @@
 		259F4FCB1BCE25710046D761 /* FoundViewController */ = {
 			isa = PBXGroup;
 			children = (
+				259F515B1BCE3E0B0046D761 /* FoundViewController.h */,
+				259F515C1BCE3E0B0046D761 /* FoundViewController.m */,
 			);
 			path = FoundViewController;
 			sourceTree = "<group>";
@@ -785,6 +799,8 @@
 		259F4FCF1BCE25710046D761 /* GoodViewController */ = {
 			isa = PBXGroup;
 			children = (
+				259F51581BCE3DEE0046D761 /* ProductViewController.h */,
+				259F51591BCE3DEE0046D761 /* ProductViewController.m */,
 			);
 			path = GoodViewController;
 			sourceTree = "<group>";
@@ -823,6 +839,8 @@
 		259F4FD41BCE25710046D761 /* MineViewController */ = {
 			isa = PBXGroup;
 			children = (
+				259F51611BCE3E280046D761 /* MineViewController.h */,
+				259F51621BCE3E280046D761 /* MineViewController.m */,
 			);
 			path = MineViewController;
 			sourceTree = "<group>";
@@ -854,6 +872,8 @@
 		259F4FD81BCE25710046D761 /* SquareViewController */ = {
 			isa = PBXGroup;
 			children = (
+				259F515E1BCE3E1C0046D761 /* SquareViewController.h */,
+				259F515F1BCE3E1C0046D761 /* SquareViewController.m */,
 			);
 			path = SquareViewController;
 			sourceTree = "<group>";
@@ -1630,14 +1650,17 @@
 			files = (
 				259F51531BCE2DE40046D761 /* wav.mm in Sources */,
 				259F51491BCE2DE40046D761 /* EMCDDeviceManager+ProximitySensor.m in Sources */,
+				259F515A1BCE3DEE0046D761 /* ProductViewController.m in Sources */,
 				259F50971BCE25710046D761 /* UIView+Frame.m in Sources */,
 				259F509B1BCE25710046D761 /* AphlaSlider.m in Sources */,
 				259F514A1BCE2DE40046D761 /* EMCDDeviceManager+Remind.m in Sources */,
 				259F509E1BCE25710046D761 /* Material.m in Sources */,
 				259F50931BCE25710046D761 /* UIDevice+IdentifierAddition.m in Sources */,
+				259F51601BCE3E1C0046D761 /* SquareViewController.m in Sources */,
 				259F51541BCE2DE40046D761 /* EMVoiceConverter.mm in Sources */,
 				259F50961BCE25710046D761 /* UISearchBar+removeBackgroundView.m in Sources */,
 				259F50951BCE25710046D761 /* UIImage+YC.m in Sources */,
+				259F515D1BCE3E0B0046D761 /* FoundViewController.m in Sources */,
 				259F514F1BCE2DE40046D761 /* MD5Util.m in Sources */,
 				259F51441BCE2DE40046D761 /* ConvertToCommonEmoticonsHelper.m in Sources */,
 				259F514B1BCE2DE40046D761 /* EMCDDeviceManagerBase.m in Sources */,
@@ -1662,6 +1685,7 @@
 				259F50BE1BCE25710046D761 /* README.md in Sources */,
 				259F508F1BCE25710046D761 /* NSString+MD5Addition.m in Sources */,
 				259F50BF1BCE25710046D761 /* UIImage+Additions.m in Sources */,
+				259F51631BCE3E280046D761 /* MineViewController.m in Sources */,
 				259F513F1BCE2DE40046D761 /* IconsModel.m in Sources */,
 				259F50A01BCE25710046D761 /* WSTabBarItem.m in Sources */,
 				259F51411BCE2DE40046D761 /* PopView.m in Sources */,
