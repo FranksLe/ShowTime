@@ -121,7 +121,9 @@
 		68602B431BCF78140075F41F /* Supply ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B421BCF78140075F41F /* Supply ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		68602B461BCF78DF0075F41F /* SupplyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B451BCF78DF0075F41F /* SupplyTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		68602B491BCF96330075F41F /* SquareListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B481BCF96330075F41F /* SquareListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		68602B4F1BCFA5C10075F41F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68602B4E1BCFA5C10075F41F /* Media.xcassets */; settings = {ASSET_TAGS = (); }; };
+		68602B521BCFA9650075F41F /* MineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B511BCFA9650075F41F /* MineTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		68602B551BCFA98A0075F41F /* FoundTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B541BCFA98A0075F41F /* FoundTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		68602B571BCFA9F30075F41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68602B561BCFA9F30075F41F /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		68A7C3FB1BCE49B900B02D9B /* GoodsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A7C3FA1BCE49B900B02D9B /* GoodsListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		E3106CD8EFEE1A8BADAD7866 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F2D79875B68EA377AE0D1 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -440,6 +442,21 @@
 		259F515F1BCE3E1C0046D761 /* SquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
 		259F51611BCE3E280046D761 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		259F51621BCE3E280046D761 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		259F51641BCE51BB0046D761 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		259F51651BCE51BB0046D761 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		259F516B1BCE547B0046D761 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		259F516D1BCE5F810046D761 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		259F516E1BCE5F810046D761 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		259F51701BCE5F9B0046D761 /* Register.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Register.xib; sourceTree = "<group>"; };
+		259F51721BCE5FBE0046D761 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
+		259F51731BCE5FBE0046D761 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		259F51751BCE5FD70046D761 /* ForgetPassword.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPassword.xib; sourceTree = "<group>"; };
+		259F51771BCF40650046D761 /* GetVertificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetVertificationViewController.h; sourceTree = "<group>"; };
+		259F51781BCF40650046D761 /* GetVertificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetVertificationViewController.m; sourceTree = "<group>"; };
+		259F517A1BCF409B0046D761 /* GetVertification.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetVertification.xib; sourceTree = "<group>"; };
+		259F517C1BCF43E10046D761 /* ProductLimitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductLimitViewController.h; sourceTree = "<group>"; };
+		259F517D1BCF43E10046D761 /* ProductLimitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductLimitViewController.m; sourceTree = "<group>"; };
+		259F517F1BCF43F70046D761 /* ProductLimit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductLimit.xib; sourceTree = "<group>"; };
 		68602B3B1BCF6C080075F41F /* AgantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgantViewController.h; sourceTree = "<group>"; };
 		68602B3C1BCF6C080075F41F /* AgantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgantViewController.m; sourceTree = "<group>"; };
 		68602B3E1BCF6D4E0075F41F /* AgentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentTableViewCell.h; sourceTree = "<group>"; };
@@ -450,7 +467,11 @@
 		68602B451BCF78DF0075F41F /* SupplyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupplyTableViewCell.m; sourceTree = "<group>"; };
 		68602B471BCF96330075F41F /* SquareListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareListTableViewCell.h; sourceTree = "<group>"; };
 		68602B481BCF96330075F41F /* SquareListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareListTableViewCell.m; sourceTree = "<group>"; };
-		68602B4E1BCFA5C10075F41F /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		68602B501BCFA9650075F41F /* MineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewCell.h; sourceTree = "<group>"; };
+		68602B511BCFA9650075F41F /* MineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewCell.m; sourceTree = "<group>"; };
+		68602B531BCFA98A0075F41F /* FoundTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundTableViewCell.h; sourceTree = "<group>"; };
+		68602B541BCFA98A0075F41F /* FoundTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundTableViewCell.m; sourceTree = "<group>"; };
+		68602B561BCFA9F30075F41F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68A7C3F91BCE49B900B02D9B /* GoodsListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsListTableViewCell.h; sourceTree = "<group>"; };
 		68A7C3FA1BCE49B900B02D9B /* GoodsListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsListTableViewCell.m; sourceTree = "<group>"; };
 		8B0F2D79875B68EA377AE0D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -551,7 +572,7 @@
 				259F4FC71BCE25710046D761 /* Section */,
 				259F4FD91BCE25710046D761 /* Venders */,
 				259F4ED31BCE24CC0046D761 /* Main.storyboard */,
-				68602B4E1BCFA5C10075F41F /* Media.xcassets */,
+				68602B561BCFA9F30075F41F /* Assets.xcassets */,
 				259F4ED81BCE24CC0046D761 /* LaunchScreen.storyboard */,
 				259F4EDB1BCE24CC0046D761 /* Info.plist */,
 				259F4ECA1BCE24CC0046D761 /* Supporting Files */,
@@ -777,6 +798,8 @@
 		259F4FCA1BCE25710046D761 /* FoundView */ = {
 			isa = PBXGroup;
 			children = (
+				68602B531BCFA98A0075F41F /* FoundTableViewCell.h */,
+				68602B541BCFA98A0075F41F /* FoundTableViewCell.m */,
 			);
 			path = FoundView;
 			sourceTree = "<group>";
@@ -828,6 +851,21 @@
 		259F4FD01BCE25710046D761 /* LoginAndRegister */ = {
 			isa = PBXGroup;
 			children = (
+				259F51641BCE51BB0046D761 /* LoginViewController.h */,
+				259F51651BCE51BB0046D761 /* LoginViewController.m */,
+				259F516B1BCE547B0046D761 /* Login.xib */,
+				259F516D1BCE5F810046D761 /* RegisterViewController.h */,
+				259F516E1BCE5F810046D761 /* RegisterViewController.m */,
+				259F51701BCE5F9B0046D761 /* Register.xib */,
+				259F51771BCF40650046D761 /* GetVertificationViewController.h */,
+				259F51781BCF40650046D761 /* GetVertificationViewController.m */,
+				259F517A1BCF409B0046D761 /* GetVertification.xib */,
+				259F517C1BCF43E10046D761 /* ProductLimitViewController.h */,
+				259F517D1BCF43E10046D761 /* ProductLimitViewController.m */,
+				259F517F1BCF43F70046D761 /* ProductLimit.xib */,
+				259F51721BCE5FBE0046D761 /* ForgetPasswordViewController.h */,
+				259F51731BCE5FBE0046D761 /* ForgetPasswordViewController.m */,
+				259F51751BCE5FD70046D761 /* ForgetPassword.xib */,
 			);
 			path = LoginAndRegister;
 			sourceTree = "<group>";
@@ -852,6 +890,8 @@
 		259F4FD31BCE25710046D761 /* MineView */ = {
 			isa = PBXGroup;
 			children = (
+				68602B501BCFA9650075F41F /* MineTableViewCell.h */,
+				68602B511BCFA9650075F41F /* MineTableViewCell.m */,
 			);
 			path = MineView;
 			sourceTree = "<group>";
@@ -1607,10 +1647,10 @@
 				259F50BD1BCE25710046D761 /* LICENSE in Resources */,
 				259F4EDA1BCE24CC0046D761 /* LaunchScreen.storyboard in Resources */,
 				259F50C61BCE25710046D761 /* UMShareEditViewControlleriPad.xib in Resources */,
-				68602B4F1BCFA5C10075F41F /* Media.xcassets in Resources */,
 				259F50C91BCE25710046D761 /* UMSShareListController.xib in Resources */,
 				259F50D21BCE25710046D761 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				259F50C71BCE25710046D761 /* UMSLoginViewController.xib in Resources */,
+				68602B571BCFA9F30075F41F /* Assets.xcassets in Resources */,
 				259F4ED51BCE24CC0046D761 /* Main.storyboard in Resources */,
 				259F50BC1BCE25710046D761 /* EaseMob.bundle in Resources */,
 				259F50C31BCE25710046D761 /* UMSCommentInputController.xib in Resources */,
@@ -1710,6 +1750,7 @@
 				259F50A11BCE25710046D761 /* WSWaterfallCell.m in Sources */,
 				259F50911BCE25710046D761 /* NSString+YC.m in Sources */,
 				259F514C1BCE2DE40046D761 /* Emoji.m in Sources */,
+				68602B551BCFA98A0075F41F /* FoundTableViewCell.m in Sources */,
 				68602B3D1BCF6C080075F41F /* AgantViewController.m in Sources */,
 				259F51461BCE2DE40046D761 /* EMAudioRecorderUtil.m in Sources */,
 				259F50A21BCE25710046D761 /* CoreDataManager.m in Sources */,
@@ -1740,6 +1781,7 @@
 				259F508C1BCE25710046D761 /* AppDelegate.m in Sources */,
 				68602B431BCF78140075F41F /* Supply ViewController.m in Sources */,
 				259F51401BCE2DE40046D761 /* MessageModel.m in Sources */,
+				68602B521BCFA9650075F41F /* MineTableViewCell.m in Sources */,
 				259F51501BCE2DE40046D761 /* MessageCountModel.m in Sources */,
 				259F51511BCE2DE40046D761 /* MessageCountUtils.m in Sources */,
 			);

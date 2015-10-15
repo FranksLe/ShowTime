@@ -152,7 +152,7 @@
 
 //分享baseurl
 //#define kShareBaseUrl @"http://121.40.179.113:8000"//
-#define kShareBaseUrl @"http://api.yirenjiadao.com"
+#define kShareBaseUrl @"http://qa.weizhen.cn/platform"
 //#define kShareBaseUrl @"http://api.yirenjingji.com"
 
 /*-------------点赞、支持---------------*/

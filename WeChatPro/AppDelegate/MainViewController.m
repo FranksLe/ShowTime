@@ -40,7 +40,7 @@
     [self.tabBar setBackgroundImage:[UIImage blackColorImage]];
     [self.tabBar setSelectionIndicatorImage:[UIImage blackColorImage]];
     
-    [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName :[UIColor redColor],
+    [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName :[UIColor colorWithRed:39 / 255.0 green:177 / 255.0 blue:254 / 255.0 alpha:1.0],
                                                          NSFontAttributeName:[UIFont systemFontOfSize:12.0]}
                                              forState:UIControlStateSelected];
     [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName :[UIColor grayColor],
@@ -58,28 +58,40 @@
     [[UINavigationBar appearance] setTitleTextAttributes:params];
     
     [[UINavigationBar appearance] setBackgroundImage:[UIImage resizableImageWithColor:colorNavigationBar] forBarMetrics:UIBarMetricsDefault];
-    UIImage *squareImage = [UIImage imageNamed:@"Image"];
-    squareImage = [squareImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+
+    UIImage *productSelectedImage = [UIImage imageNamed:@"productSelected"];
+    productSelectedImage = [productSelectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *productImage = [UIImage imageNamed:@"product"];
+    productImage = [productImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     WSTabBarItem *homeTabBarItem       = [[WSTabBarItem alloc] initWithTitle:@"商品"
-                                                                       image:squareImage
-                                                               selectedImage:squareImage];
+                                                                       image:productImage
+                                                               selectedImage:productSelectedImage];
+    UIImage *squareImage = [UIImage imageNamed:@"square"];
+    squareImage = [squareImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *squareSelectedImage = [UIImage imageNamed:@"squareSelected"];
+    squareSelectedImage = [squareSelectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     WSTabBarItem *categoryTabBarItem   = [[WSTabBarItem alloc] initWithTitle:@"圈子"
                                                                        image:squareImage
-                                                               selectedImage:squareImage];
+                                                               selectedImage:squareSelectedImage];
+    UIImage *foundImage = [UIImage imageNamed:@"found"];
+    foundImage = [foundImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *foundSelectedImage = [UIImage imageNamed:@"foundSelected"];
+    foundSelectedImage = [foundSelectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     WSTabBarItem *messageTabBarItem    = [[WSTabBarItem alloc] initWithTitle:@"发现"
-                                                                       image:squareImage
-                                                               selectedImage:squareImage];
+                                                                       image:foundImage
+                                                               selectedImage:foundSelectedImage];
+    UIImage *mineImage = [UIImage imageNamed:@"mine"];
+    mineImage = [mineImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *mineSelectedImage = [UIImage imageNamed:@"mineSelected"];
+    mineSelectedImage = [mineSelectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     WSTabBarItem *meTabBarItem         = [[WSTabBarItem alloc] initWithTitle:@"我"
-                                                                       image:squareImage
-                                                               selectedImage:squareImage];
-
+                                                                       image:mineImage
+                                                               selectedImage:mineSelectedImage];
     
     self.viewControllers = @[ [self viewController:@"ProductViewController"      tabBarItem:homeTabBarItem],
                               [self viewController:@"SquareViewController"       tabBarItem:categoryTabBarItem],
                               [self viewController:@"FoundViewController"  tabBarItem:messageTabBarItem],
                               [self viewController:@"MineViewController"  tabBarItem:meTabBarItem]];
-    
-    
     self.delegate = self;
     
     [self setSelectedIndex:0];

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface MineViewController : UIViewController
+#import "MineTableViewCell.h"
+@interface MineViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, strong) UIView *whiteBackGroundView;
+@property (nonatomic, strong) UIImageView *headImagView;
+@property (nonatomic, strong) UILabel *nickNameLabel;
+@property (nonatomic, strong) UITableView *mineTableView;
 
 @end
