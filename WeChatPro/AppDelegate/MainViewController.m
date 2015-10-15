@@ -40,7 +40,7 @@
     [self.tabBar setBackgroundImage:[UIImage blackColorImage]];
     [self.tabBar setSelectionIndicatorImage:[UIImage blackColorImage]];
     
-    [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName :[UIColor redColor],
+    [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName :[UIColor colorWithRed:39 / 255.0 green:177 / 255.0 blue:254 / 255.0 alpha:1.0],
                                                          NSFontAttributeName:[UIFont systemFontOfSize:12.0]}
                                              forState:UIControlStateSelected];
     [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName :[UIColor grayColor],

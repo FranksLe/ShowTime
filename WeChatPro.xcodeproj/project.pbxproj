@@ -127,6 +127,8 @@
 		259F517B1BCF409B0046D761 /* GetVertification.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259F517A1BCF409B0046D761 /* GetVertification.xib */; settings = {ASSET_TAGS = (); }; };
 		259F517E1BCF43E10046D761 /* ProductLimitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F517D1BCF43E10046D761 /* ProductLimitViewController.m */; settings = {ASSET_TAGS = (); }; };
 		259F51801BCF43F70046D761 /* ProductLimit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259F517F1BCF43F70046D761 /* ProductLimit.xib */; settings = {ASSET_TAGS = (); }; };
+		259F51831BCF78500046D761 /* MineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51821BCF78500046D761 /* MineTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		259F51861BCF904D0046D761 /* FoundTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51851BCF904D0046D761 /* FoundTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		68A7C3FB1BCE49B900B02D9B /* GoodsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A7C3FA1BCE49B900B02D9B /* GoodsListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		E3106CD8EFEE1A8BADAD7866 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F2D79875B68EA377AE0D1 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -461,6 +463,10 @@
 		259F517C1BCF43E10046D761 /* ProductLimitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductLimitViewController.h; sourceTree = "<group>"; };
 		259F517D1BCF43E10046D761 /* ProductLimitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductLimitViewController.m; sourceTree = "<group>"; };
 		259F517F1BCF43F70046D761 /* ProductLimit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductLimit.xib; sourceTree = "<group>"; };
+		259F51811BCF78500046D761 /* MineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewCell.h; sourceTree = "<group>"; };
+		259F51821BCF78500046D761 /* MineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewCell.m; sourceTree = "<group>"; };
+		259F51841BCF904D0046D761 /* FoundTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundTableViewCell.h; sourceTree = "<group>"; };
+		259F51851BCF904D0046D761 /* FoundTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundTableViewCell.m; sourceTree = "<group>"; };
 		68A7C3F91BCE49B900B02D9B /* GoodsListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsListTableViewCell.h; sourceTree = "<group>"; };
 		68A7C3FA1BCE49B900B02D9B /* GoodsListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsListTableViewCell.m; sourceTree = "<group>"; };
 		8B0F2D79875B68EA377AE0D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -787,6 +793,8 @@
 		259F4FCA1BCE25710046D761 /* FoundView */ = {
 			isa = PBXGroup;
 			children = (
+				259F51841BCF904D0046D761 /* FoundTableViewCell.h */,
+				259F51851BCF904D0046D761 /* FoundTableViewCell.m */,
 			);
 			path = FoundView;
 			sourceTree = "<group>";
@@ -877,6 +885,8 @@
 		259F4FD31BCE25710046D761 /* MineView */ = {
 			isa = PBXGroup;
 			children = (
+				259F51811BCF78500046D761 /* MineTableViewCell.h */,
+				259F51821BCF78500046D761 /* MineTableViewCell.m */,
 			);
 			path = MineView;
 			sourceTree = "<group>";
@@ -1730,6 +1740,7 @@
 				259F50A31BCE25710046D761 /* ArtistService.m in Sources */,
 				259F50A11BCE25710046D761 /* WSWaterfallCell.m in Sources */,
 				259F50911BCE25710046D761 /* NSString+YC.m in Sources */,
+				259F51861BCF904D0046D761 /* FoundTableViewCell.m in Sources */,
 				259F514C1BCE2DE40046D761 /* Emoji.m in Sources */,
 				259F51461BCE2DE40046D761 /* EMAudioRecorderUtil.m in Sources */,
 				259F50A21BCE25710046D761 /* CoreDataManager.m in Sources */,
@@ -1760,6 +1771,7 @@
 				259F516F1BCE5F810046D761 /* RegisterViewController.m in Sources */,
 				259F508C1BCE25710046D761 /* AppDelegate.m in Sources */,
 				259F51401BCE2DE40046D761 /* MessageModel.m in Sources */,
+				259F51831BCF78500046D761 /* MineTableViewCell.m in Sources */,
 				259F51501BCE2DE40046D761 /* MessageCountModel.m in Sources */,
 				259F51511BCE2DE40046D761 /* MessageCountUtils.m in Sources */,
 			);

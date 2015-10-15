@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FoundTableViewCell.h"
+@interface FoundViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 
-@interface FoundViewController : UIViewController
+@property (nonatomic, strong) UITableView *foundTableView;
+
 
 @end
