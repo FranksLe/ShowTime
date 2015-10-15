@@ -91,8 +91,6 @@
                               [self viewController:@"SquareViewController"       tabBarItem:categoryTabBarItem],
                               [self viewController:@"FoundViewController"  tabBarItem:messageTabBarItem],
                               [self viewController:@"MineViewController"  tabBarItem:meTabBarItem]];
-    
-    
     self.delegate = self;
     
     [self setSelectedIndex:0];
