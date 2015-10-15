@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface SquareViewController : UIViewController
-
+#import "AgantViewController.h"
+#import "Supply ViewController.h"
+#import "SquareListTableViewCell.h"
+@interface SquareViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic, strong)UITableView *squreListtable;
 @end

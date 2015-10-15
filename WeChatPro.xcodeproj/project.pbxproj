@@ -117,6 +117,11 @@
 		259F515D1BCE3E0B0046D761 /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F515C1BCE3E0B0046D761 /* FoundViewController.m */; settings = {ASSET_TAGS = (); }; };
 		259F51601BCE3E1C0046D761 /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F515F1BCE3E1C0046D761 /* SquareViewController.m */; settings = {ASSET_TAGS = (); }; };
 		259F51631BCE3E280046D761 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51621BCE3E280046D761 /* MineViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68602B3D1BCF6C080075F41F /* AgantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B3C1BCF6C080075F41F /* AgantViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68602B401BCF6D4E0075F41F /* AgentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B3F1BCF6D4E0075F41F /* AgentTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		68602B431BCF78140075F41F /* Supply ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B421BCF78140075F41F /* Supply ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68602B461BCF78DF0075F41F /* SupplyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B451BCF78DF0075F41F /* SupplyTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		68602B491BCF96330075F41F /* SquareListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B481BCF96330075F41F /* SquareListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		68A7C3FB1BCE49B900B02D9B /* GoodsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A7C3FA1BCE49B900B02D9B /* GoodsListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		E3106CD8EFEE1A8BADAD7866 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F2D79875B68EA377AE0D1 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -436,6 +441,16 @@
 		259F515F1BCE3E1C0046D761 /* SquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
 		259F51611BCE3E280046D761 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		259F51621BCE3E280046D761 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		68602B3B1BCF6C080075F41F /* AgantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgantViewController.h; sourceTree = "<group>"; };
+		68602B3C1BCF6C080075F41F /* AgantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgantViewController.m; sourceTree = "<group>"; };
+		68602B3E1BCF6D4E0075F41F /* AgentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentTableViewCell.h; sourceTree = "<group>"; };
+		68602B3F1BCF6D4E0075F41F /* AgentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentTableViewCell.m; sourceTree = "<group>"; };
+		68602B411BCF78140075F41F /* Supply ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Supply ViewController.h"; sourceTree = "<group>"; };
+		68602B421BCF78140075F41F /* Supply ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Supply ViewController.m"; sourceTree = "<group>"; };
+		68602B441BCF78DF0075F41F /* SupplyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupplyTableViewCell.h; sourceTree = "<group>"; };
+		68602B451BCF78DF0075F41F /* SupplyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupplyTableViewCell.m; sourceTree = "<group>"; };
+		68602B471BCF96330075F41F /* SquareListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareListTableViewCell.h; sourceTree = "<group>"; };
+		68602B481BCF96330075F41F /* SquareListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareListTableViewCell.m; sourceTree = "<group>"; };
 		68A7C3F91BCE49B900B02D9B /* GoodsListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsListTableViewCell.h; sourceTree = "<group>"; };
 		68A7C3FA1BCE49B900B02D9B /* GoodsListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsListTableViewCell.m; sourceTree = "<group>"; };
 		8B0F2D79875B68EA377AE0D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -870,6 +885,12 @@
 		259F4FD71BCE25710046D761 /* SquareView */ = {
 			isa = PBXGroup;
 			children = (
+				68602B3E1BCF6D4E0075F41F /* AgentTableViewCell.h */,
+				68602B3F1BCF6D4E0075F41F /* AgentTableViewCell.m */,
+				68602B441BCF78DF0075F41F /* SupplyTableViewCell.h */,
+				68602B451BCF78DF0075F41F /* SupplyTableViewCell.m */,
+				68602B471BCF96330075F41F /* SquareListTableViewCell.h */,
+				68602B481BCF96330075F41F /* SquareListTableViewCell.m */,
 			);
 			path = SquareView;
 			sourceTree = "<group>";
@@ -879,6 +900,10 @@
 			children = (
 				259F515E1BCE3E1C0046D761 /* SquareViewController.h */,
 				259F515F1BCE3E1C0046D761 /* SquareViewController.m */,
+				68602B3B1BCF6C080075F41F /* AgantViewController.h */,
+				68602B3C1BCF6C080075F41F /* AgantViewController.m */,
+				68602B411BCF78140075F41F /* Supply ViewController.h */,
+				68602B421BCF78140075F41F /* Supply ViewController.m */,
 			);
 			path = SquareViewController;
 			sourceTree = "<group>";
@@ -1657,6 +1682,7 @@
 				259F51491BCE2DE40046D761 /* EMCDDeviceManager+ProximitySensor.m in Sources */,
 				259F515A1BCE3DEE0046D761 /* ProductViewController.m in Sources */,
 				259F50971BCE25710046D761 /* UIView+Frame.m in Sources */,
+				68602B491BCF96330075F41F /* SquareListTableViewCell.m in Sources */,
 				259F509B1BCE25710046D761 /* AphlaSlider.m in Sources */,
 				259F514A1BCE2DE40046D761 /* EMCDDeviceManager+Remind.m in Sources */,
 				259F509E1BCE25710046D761 /* Material.m in Sources */,
@@ -1669,6 +1695,7 @@
 				259F514F1BCE2DE40046D761 /* MD5Util.m in Sources */,
 				259F51441BCE2DE40046D761 /* ConvertToCommonEmoticonsHelper.m in Sources */,
 				259F514B1BCE2DE40046D761 /* EMCDDeviceManagerBase.m in Sources */,
+				68602B401BCF6D4E0075F41F /* AgentTableViewCell.m in Sources */,
 				259F508E1BCE25710046D761 /* NSObject+NSJSONSerialization.m in Sources */,
 				259F509A1BCE25710046D761 /* ListViewController.m in Sources */,
 				259F514D1BCE2DE40046D761 /* EmojiEmoticons.m in Sources */,
@@ -1683,6 +1710,7 @@
 				259F50A11BCE25710046D761 /* WSWaterfallCell.m in Sources */,
 				259F50911BCE25710046D761 /* NSString+YC.m in Sources */,
 				259F514C1BCE2DE40046D761 /* Emoji.m in Sources */,
+				68602B3D1BCF6C080075F41F /* AgantViewController.m in Sources */,
 				259F51461BCE2DE40046D761 /* EMAudioRecorderUtil.m in Sources */,
 				259F50A21BCE25710046D761 /* CoreDataManager.m in Sources */,
 				259F508D1BCE25710046D761 /* main.m in Sources */,
@@ -1693,6 +1721,7 @@
 				259F50BF1BCE25710046D761 /* UIImage+Additions.m in Sources */,
 				259F51631BCE3E280046D761 /* MineViewController.m in Sources */,
 				259F513F1BCE2DE40046D761 /* IconsModel.m in Sources */,
+				68602B461BCF78DF0075F41F /* SupplyTableViewCell.m in Sources */,
 				259F50A01BCE25710046D761 /* WSTabBarItem.m in Sources */,
 				259F51411BCE2DE40046D761 /* PopView.m in Sources */,
 				259F514E1BCE2DE40046D761 /* HuanXinUtils.m in Sources */,
@@ -1709,6 +1738,7 @@
 				259F50A41BCE25710046D761 /* NetworkManager.m in Sources */,
 				259F50A61BCE25710046D761 /* Reachability.m in Sources */,
 				259F508C1BCE25710046D761 /* AppDelegate.m in Sources */,
+				68602B431BCF78140075F41F /* Supply ViewController.m in Sources */,
 				259F51401BCE2DE40046D761 /* MessageModel.m in Sources */,
 				259F51501BCE2DE40046D761 /* MessageCountModel.m in Sources */,
 				259F51511BCE2DE40046D761 /* MessageCountUtils.m in Sources */,
