@@ -117,6 +117,16 @@
 		259F515D1BCE3E0B0046D761 /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F515C1BCE3E0B0046D761 /* FoundViewController.m */; settings = {ASSET_TAGS = (); }; };
 		259F51601BCE3E1C0046D761 /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F515F1BCE3E1C0046D761 /* SquareViewController.m */; settings = {ASSET_TAGS = (); }; };
 		259F51631BCE3E280046D761 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51621BCE3E280046D761 /* MineViewController.m */; settings = {ASSET_TAGS = (); }; };
+		259F51661BCE51BB0046D761 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51651BCE51BB0046D761 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		259F516C1BCE547B0046D761 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259F516B1BCE547B0046D761 /* Login.xib */; settings = {ASSET_TAGS = (); }; };
+		259F516F1BCE5F810046D761 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F516E1BCE5F810046D761 /* RegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		259F51711BCE5F9B0046D761 /* Register.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259F51701BCE5F9B0046D761 /* Register.xib */; settings = {ASSET_TAGS = (); }; };
+		259F51741BCE5FBE0046D761 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51731BCE5FBE0046D761 /* ForgetPasswordViewController.m */; settings = {ASSET_TAGS = (); }; };
+		259F51761BCE5FD70046D761 /* ForgetPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259F51751BCE5FD70046D761 /* ForgetPassword.xib */; settings = {ASSET_TAGS = (); }; };
+		259F51791BCF40650046D761 /* GetVertificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51781BCF40650046D761 /* GetVertificationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		259F517B1BCF409B0046D761 /* GetVertification.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259F517A1BCF409B0046D761 /* GetVertification.xib */; settings = {ASSET_TAGS = (); }; };
+		259F517E1BCF43E10046D761 /* ProductLimitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F517D1BCF43E10046D761 /* ProductLimitViewController.m */; settings = {ASSET_TAGS = (); }; };
+		259F51801BCF43F70046D761 /* ProductLimit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259F517F1BCF43F70046D761 /* ProductLimit.xib */; settings = {ASSET_TAGS = (); }; };
 		E3106CD8EFEE1A8BADAD7866 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F2D79875B68EA377AE0D1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -435,6 +445,21 @@
 		259F515F1BCE3E1C0046D761 /* SquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
 		259F51611BCE3E280046D761 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		259F51621BCE3E280046D761 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		259F51641BCE51BB0046D761 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		259F51651BCE51BB0046D761 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		259F516B1BCE547B0046D761 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		259F516D1BCE5F810046D761 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		259F516E1BCE5F810046D761 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		259F51701BCE5F9B0046D761 /* Register.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Register.xib; sourceTree = "<group>"; };
+		259F51721BCE5FBE0046D761 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
+		259F51731BCE5FBE0046D761 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		259F51751BCE5FD70046D761 /* ForgetPassword.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPassword.xib; sourceTree = "<group>"; };
+		259F51771BCF40650046D761 /* GetVertificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetVertificationViewController.h; sourceTree = "<group>"; };
+		259F51781BCF40650046D761 /* GetVertificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetVertificationViewController.m; sourceTree = "<group>"; };
+		259F517A1BCF409B0046D761 /* GetVertification.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetVertification.xib; sourceTree = "<group>"; };
+		259F517C1BCF43E10046D761 /* ProductLimitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductLimitViewController.h; sourceTree = "<group>"; };
+		259F517D1BCF43E10046D761 /* ProductLimitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductLimitViewController.m; sourceTree = "<group>"; };
+		259F517F1BCF43F70046D761 /* ProductLimit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductLimit.xib; sourceTree = "<group>"; };
 		8B0F2D79875B68EA377AE0D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1945406AAEF861A7DF7A11F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A583F516159947E600FD2CA8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -808,6 +833,21 @@
 		259F4FD01BCE25710046D761 /* LoginAndRegister */ = {
 			isa = PBXGroup;
 			children = (
+				259F51641BCE51BB0046D761 /* LoginViewController.h */,
+				259F51651BCE51BB0046D761 /* LoginViewController.m */,
+				259F516B1BCE547B0046D761 /* Login.xib */,
+				259F516D1BCE5F810046D761 /* RegisterViewController.h */,
+				259F516E1BCE5F810046D761 /* RegisterViewController.m */,
+				259F51701BCE5F9B0046D761 /* Register.xib */,
+				259F51771BCF40650046D761 /* GetVertificationViewController.h */,
+				259F51781BCF40650046D761 /* GetVertificationViewController.m */,
+				259F517A1BCF409B0046D761 /* GetVertification.xib */,
+				259F517C1BCF43E10046D761 /* ProductLimitViewController.h */,
+				259F517D1BCF43E10046D761 /* ProductLimitViewController.m */,
+				259F517F1BCF43F70046D761 /* ProductLimit.xib */,
+				259F51721BCE5FBE0046D761 /* ForgetPasswordViewController.h */,
+				259F51731BCE5FBE0046D761 /* ForgetPasswordViewController.m */,
+				259F51751BCE5FD70046D761 /* ForgetPassword.xib */,
 			);
 			path = LoginAndRegister;
 			sourceTree = "<group>";
@@ -1578,6 +1618,7 @@
 				259F4EDA1BCE24CC0046D761 /* LaunchScreen.storyboard in Resources */,
 				259F50C61BCE25710046D761 /* UMShareEditViewControlleriPad.xib in Resources */,
 				259F4ED71BCE24CC0046D761 /* Assets.xcassets in Resources */,
+				259F51711BCE5F9B0046D761 /* Register.xib in Resources */,
 				259F50C91BCE25710046D761 /* UMSShareListController.xib in Resources */,
 				259F50D21BCE25710046D761 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				259F50C71BCE25710046D761 /* UMSLoginViewController.xib in Resources */,
@@ -1585,10 +1626,14 @@
 				259F50BC1BCE25710046D761 /* EaseMob.bundle in Resources */,
 				259F50C31BCE25710046D761 /* UMSCommentInputController.xib in Resources */,
 				259F50CA1BCE25710046D761 /* UMSocialSDKResourcesNew.bundle in Resources */,
+				259F516C1BCE547B0046D761 /* Login.xib in Resources */,
+				259F51801BCF43F70046D761 /* ProductLimit.xib in Resources */,
 				259F50C21BCE25710046D761 /* UMSCommentDetailController.xib in Resources */,
 				259F50C51BCE25710046D761 /* UMShareEditViewController.xib in Resources */,
+				259F517B1BCF409B0046D761 /* GetVertification.xib in Resources */,
 				259F50CF1BCE25710046D761 /* WeiboSDK.bundle in Resources */,
 				259F50C41BCE25710046D761 /* UMSCommentInputControlleriPad.xib in Resources */,
+				259F51761BCE5FD70046D761 /* ForgetPassword.xib in Resources */,
 				259F50C01BCE25710046D761 /* UMSocialLocalizable.strings in Resources */,
 				259F50C81BCE25710046D761 /* UMSnsAccountViewController.xib in Resources */,
 			);
@@ -1654,6 +1699,7 @@
 				259F50971BCE25710046D761 /* UIView+Frame.m in Sources */,
 				259F509B1BCE25710046D761 /* AphlaSlider.m in Sources */,
 				259F514A1BCE2DE40046D761 /* EMCDDeviceManager+Remind.m in Sources */,
+				259F517E1BCF43E10046D761 /* ProductLimitViewController.m in Sources */,
 				259F509E1BCE25710046D761 /* Material.m in Sources */,
 				259F50931BCE25710046D761 /* UIDevice+IdentifierAddition.m in Sources */,
 				259F51601BCE3E1C0046D761 /* SquareViewController.m in Sources */,
@@ -1665,6 +1711,8 @@
 				259F51441BCE2DE40046D761 /* ConvertToCommonEmoticonsHelper.m in Sources */,
 				259F514B1BCE2DE40046D761 /* EMCDDeviceManagerBase.m in Sources */,
 				259F508E1BCE25710046D761 /* NSObject+NSJSONSerialization.m in Sources */,
+				259F51661BCE51BB0046D761 /* LoginViewController.m in Sources */,
+				259F51791BCF40650046D761 /* GetVertificationViewController.m in Sources */,
 				259F509A1BCE25710046D761 /* ListViewController.m in Sources */,
 				259F514D1BCE2DE40046D761 /* EmojiEmoticons.m in Sources */,
 				259F50D71BCE25C20046D761 /* MainViewController.m in Sources */,
@@ -1700,8 +1748,10 @@
 				259F51521BCE2DE40046D761 /* amrFileCodec.mm in Sources */,
 				259F509D1BCE25710046D761 /* HcCustomKeyboard.m in Sources */,
 				259F51471BCE2DE40046D761 /* EMCDDeviceManager+Media.m in Sources */,
+				259F51741BCE5FBE0046D761 /* ForgetPasswordViewController.m in Sources */,
 				259F50A41BCE25710046D761 /* NetworkManager.m in Sources */,
 				259F50A61BCE25710046D761 /* Reachability.m in Sources */,
+				259F516F1BCE5F810046D761 /* RegisterViewController.m in Sources */,
 				259F508C1BCE25710046D761 /* AppDelegate.m in Sources */,
 				259F51401BCE2DE40046D761 /* MessageModel.m in Sources */,
 				259F51501BCE2DE40046D761 /* MessageCountModel.m in Sources */,

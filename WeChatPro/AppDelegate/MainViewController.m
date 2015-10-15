@@ -58,20 +58,34 @@
     [[UINavigationBar appearance] setTitleTextAttributes:params];
     
     [[UINavigationBar appearance] setBackgroundImage:[UIImage resizableImageWithColor:colorNavigationBar] forBarMetrics:UIBarMetricsDefault];
-    UIImage *squareImage = [UIImage imageNamed:@"imagered"];
-    squareImage = [squareImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *productSelectedImage = [UIImage imageNamed:@"productSelected"];
+    productSelectedImage = [productSelectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *productImage = [UIImage imageNamed:@"product"];
+    productImage = [productImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     WSTabBarItem *homeTabBarItem       = [[WSTabBarItem alloc] initWithTitle:@"商品"
-                                                                       image:squareImage
-                                                               selectedImage:[UIImage imageNamed:@"tab_item_category_select"]];
+                                                                       image:productImage
+                                                               selectedImage:productSelectedImage];
+    UIImage *squareImage = [UIImage imageNamed:@"square"];
+    squareImage = [squareImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *squareSelectedImage = [UIImage imageNamed:@"squareSelected"];
+    squareSelectedImage = [squareSelectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     WSTabBarItem *categoryTabBarItem   = [[WSTabBarItem alloc] initWithTitle:@"圈子"
-                                                                       image:[UIImage imageNamed:@"tab_item_category_normal"]
-                                                               selectedImage:[UIImage imageNamed:@"tab_item_category_select"]];
+                                                                       image:squareImage
+                                                               selectedImage:squareSelectedImage];
+    UIImage *foundImage = [UIImage imageNamed:@"found"];
+    foundImage = [foundImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *foundSelectedImage = [UIImage imageNamed:@"foundSelected"];
+    foundSelectedImage = [foundSelectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     WSTabBarItem *messageTabBarItem    = [[WSTabBarItem alloc] initWithTitle:@"发现"
-                                                                       image:[UIImage imageNamed:@"tab_item_me_normal"]
-                                                               selectedImage:[UIImage imageNamed:@"tab_item_me_select"]];
+                                                                       image:foundImage
+                                                               selectedImage:foundSelectedImage];
+    UIImage *mineImage = [UIImage imageNamed:@"mine"];
+    mineImage = [mineImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *mineSelectedImage = [UIImage imageNamed:@"mineSelected"];
+    mineSelectedImage = [mineSelectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     WSTabBarItem *meTabBarItem         = [[WSTabBarItem alloc] initWithTitle:@"我"
-                                                                       image:[UIImage imageNamed:@"tab_item_me_normal"]
-                                                               selectedImage:[UIImage imageNamed:@"tab_item_me_select"]];
+                                                                       image:mineImage
+                                                               selectedImage:mineSelectedImage];
     
     self.viewControllers = @[ [self viewController:@"ProductViewController"      tabBarItem:homeTabBarItem],
                               [self viewController:@"SquareViewController"       tabBarItem:categoryTabBarItem],
