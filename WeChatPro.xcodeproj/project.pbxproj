@@ -117,18 +117,11 @@
 		259F515D1BCE3E0B0046D761 /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F515C1BCE3E0B0046D761 /* FoundViewController.m */; settings = {ASSET_TAGS = (); }; };
 		259F51601BCE3E1C0046D761 /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F515F1BCE3E1C0046D761 /* SquareViewController.m */; settings = {ASSET_TAGS = (); }; };
 		259F51631BCE3E280046D761 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51621BCE3E280046D761 /* MineViewController.m */; settings = {ASSET_TAGS = (); }; };
-		259F51661BCE51BB0046D761 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51651BCE51BB0046D761 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
-		259F516C1BCE547B0046D761 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259F516B1BCE547B0046D761 /* Login.xib */; settings = {ASSET_TAGS = (); }; };
-		259F516F1BCE5F810046D761 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F516E1BCE5F810046D761 /* RegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
-		259F51711BCE5F9B0046D761 /* Register.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259F51701BCE5F9B0046D761 /* Register.xib */; settings = {ASSET_TAGS = (); }; };
-		259F51741BCE5FBE0046D761 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51731BCE5FBE0046D761 /* ForgetPasswordViewController.m */; settings = {ASSET_TAGS = (); }; };
-		259F51761BCE5FD70046D761 /* ForgetPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259F51751BCE5FD70046D761 /* ForgetPassword.xib */; settings = {ASSET_TAGS = (); }; };
-		259F51791BCF40650046D761 /* GetVertificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51781BCF40650046D761 /* GetVertificationViewController.m */; settings = {ASSET_TAGS = (); }; };
-		259F517B1BCF409B0046D761 /* GetVertification.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259F517A1BCF409B0046D761 /* GetVertification.xib */; settings = {ASSET_TAGS = (); }; };
-		259F517E1BCF43E10046D761 /* ProductLimitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F517D1BCF43E10046D761 /* ProductLimitViewController.m */; settings = {ASSET_TAGS = (); }; };
-		259F51801BCF43F70046D761 /* ProductLimit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259F517F1BCF43F70046D761 /* ProductLimit.xib */; settings = {ASSET_TAGS = (); }; };
-		259F51831BCF78500046D761 /* MineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51821BCF78500046D761 /* MineTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		259F51861BCF904D0046D761 /* FoundTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F51851BCF904D0046D761 /* FoundTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		68602B3D1BCF6C080075F41F /* AgantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B3C1BCF6C080075F41F /* AgantViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68602B401BCF6D4E0075F41F /* AgentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B3F1BCF6D4E0075F41F /* AgentTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		68602B431BCF78140075F41F /* Supply ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B421BCF78140075F41F /* Supply ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		68602B461BCF78DF0075F41F /* SupplyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B451BCF78DF0075F41F /* SupplyTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		68602B491BCF96330075F41F /* SquareListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B481BCF96330075F41F /* SquareListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		68A7C3FB1BCE49B900B02D9B /* GoodsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A7C3FA1BCE49B900B02D9B /* GoodsListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		E3106CD8EFEE1A8BADAD7866 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F2D79875B68EA377AE0D1 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -920,6 +913,12 @@
 		259F4FD71BCE25710046D761 /* SquareView */ = {
 			isa = PBXGroup;
 			children = (
+				68602B3E1BCF6D4E0075F41F /* AgentTableViewCell.h */,
+				68602B3F1BCF6D4E0075F41F /* AgentTableViewCell.m */,
+				68602B441BCF78DF0075F41F /* SupplyTableViewCell.h */,
+				68602B451BCF78DF0075F41F /* SupplyTableViewCell.m */,
+				68602B471BCF96330075F41F /* SquareListTableViewCell.h */,
+				68602B481BCF96330075F41F /* SquareListTableViewCell.m */,
 			);
 			path = SquareView;
 			sourceTree = "<group>";
@@ -929,6 +928,10 @@
 			children = (
 				259F515E1BCE3E1C0046D761 /* SquareViewController.h */,
 				259F515F1BCE3E1C0046D761 /* SquareViewController.m */,
+				68602B3B1BCF6C080075F41F /* AgantViewController.h */,
+				68602B3C1BCF6C080075F41F /* AgantViewController.m */,
+				68602B411BCF78140075F41F /* Supply ViewController.h */,
+				68602B421BCF78140075F41F /* Supply ViewController.m */,
 			);
 			path = SquareViewController;
 			sourceTree = "<group>";
@@ -1712,6 +1715,7 @@
 				259F51491BCE2DE40046D761 /* EMCDDeviceManager+ProximitySensor.m in Sources */,
 				259F515A1BCE3DEE0046D761 /* ProductViewController.m in Sources */,
 				259F50971BCE25710046D761 /* UIView+Frame.m in Sources */,
+				68602B491BCF96330075F41F /* SquareListTableViewCell.m in Sources */,
 				259F509B1BCE25710046D761 /* AphlaSlider.m in Sources */,
 				259F514A1BCE2DE40046D761 /* EMCDDeviceManager+Remind.m in Sources */,
 				259F517E1BCF43E10046D761 /* ProductLimitViewController.m in Sources */,
@@ -1725,6 +1729,7 @@
 				259F514F1BCE2DE40046D761 /* MD5Util.m in Sources */,
 				259F51441BCE2DE40046D761 /* ConvertToCommonEmoticonsHelper.m in Sources */,
 				259F514B1BCE2DE40046D761 /* EMCDDeviceManagerBase.m in Sources */,
+				68602B401BCF6D4E0075F41F /* AgentTableViewCell.m in Sources */,
 				259F508E1BCE25710046D761 /* NSObject+NSJSONSerialization.m in Sources */,
 				259F51661BCE51BB0046D761 /* LoginViewController.m in Sources */,
 				259F51791BCF40650046D761 /* GetVertificationViewController.m in Sources */,
@@ -1742,6 +1747,7 @@
 				259F50911BCE25710046D761 /* NSString+YC.m in Sources */,
 				259F51861BCF904D0046D761 /* FoundTableViewCell.m in Sources */,
 				259F514C1BCE2DE40046D761 /* Emoji.m in Sources */,
+				68602B3D1BCF6C080075F41F /* AgantViewController.m in Sources */,
 				259F51461BCE2DE40046D761 /* EMAudioRecorderUtil.m in Sources */,
 				259F50A21BCE25710046D761 /* CoreDataManager.m in Sources */,
 				259F508D1BCE25710046D761 /* main.m in Sources */,
@@ -1752,6 +1758,7 @@
 				259F50BF1BCE25710046D761 /* UIImage+Additions.m in Sources */,
 				259F51631BCE3E280046D761 /* MineViewController.m in Sources */,
 				259F513F1BCE2DE40046D761 /* IconsModel.m in Sources */,
+				68602B461BCF78DF0075F41F /* SupplyTableViewCell.m in Sources */,
 				259F50A01BCE25710046D761 /* WSTabBarItem.m in Sources */,
 				259F51411BCE2DE40046D761 /* PopView.m in Sources */,
 				259F514E1BCE2DE40046D761 /* HuanXinUtils.m in Sources */,
@@ -1770,6 +1777,7 @@
 				259F50A61BCE25710046D761 /* Reachability.m in Sources */,
 				259F516F1BCE5F810046D761 /* RegisterViewController.m in Sources */,
 				259F508C1BCE25710046D761 /* AppDelegate.m in Sources */,
+				68602B431BCF78140075F41F /* Supply ViewController.m in Sources */,
 				259F51401BCE2DE40046D761 /* MessageModel.m in Sources */,
 				259F51831BCF78500046D761 /* MineTableViewCell.m in Sources */,
 				259F51501BCE2DE40046D761 /* MessageCountModel.m in Sources */,
