@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		259F4ED51BCE24CC0046D761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259F4ED31BCE24CC0046D761 /* Main.storyboard */; };
-		259F4ED71BCE24CC0046D761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259F4ED61BCE24CC0046D761 /* Assets.xcassets */; };
 		259F4EDA1BCE24CC0046D761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259F4ED81BCE24CC0046D761 /* LaunchScreen.storyboard */; };
 		259F4EE51BCE24CC0046D761 /* WeChatProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F4EE41BCE24CC0046D761 /* WeChatProTests.m */; };
 		259F4EF01BCE24CC0046D761 /* WeChatProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F4EEF1BCE24CC0046D761 /* WeChatProUITests.m */; };
@@ -122,6 +121,7 @@
 		68602B431BCF78140075F41F /* Supply ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B421BCF78140075F41F /* Supply ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		68602B461BCF78DF0075F41F /* SupplyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B451BCF78DF0075F41F /* SupplyTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		68602B491BCF96330075F41F /* SquareListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68602B481BCF96330075F41F /* SquareListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		68602B4F1BCFA5C10075F41F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68602B4E1BCFA5C10075F41F /* Media.xcassets */; settings = {ASSET_TAGS = (); }; };
 		68A7C3FB1BCE49B900B02D9B /* GoodsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A7C3FA1BCE49B900B02D9B /* GoodsListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		E3106CD8EFEE1A8BADAD7866 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F2D79875B68EA377AE0D1 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -146,7 +146,6 @@
 /* Begin PBXFileReference section */
 		259F4EC71BCE24CC0046D761 /* WeChatPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		259F4ED41BCE24CC0046D761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		259F4ED61BCE24CC0046D761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		259F4ED91BCE24CC0046D761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		259F4EDB1BCE24CC0046D761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		259F4EE01BCE24CC0046D761 /* WeChatProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -451,6 +450,7 @@
 		68602B451BCF78DF0075F41F /* SupplyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupplyTableViewCell.m; sourceTree = "<group>"; };
 		68602B471BCF96330075F41F /* SquareListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareListTableViewCell.h; sourceTree = "<group>"; };
 		68602B481BCF96330075F41F /* SquareListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareListTableViewCell.m; sourceTree = "<group>"; };
+		68602B4E1BCFA5C10075F41F /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		68A7C3F91BCE49B900B02D9B /* GoodsListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsListTableViewCell.h; sourceTree = "<group>"; };
 		68A7C3FA1BCE49B900B02D9B /* GoodsListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsListTableViewCell.m; sourceTree = "<group>"; };
 		8B0F2D79875B68EA377AE0D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -551,7 +551,7 @@
 				259F4FC71BCE25710046D761 /* Section */,
 				259F4FD91BCE25710046D761 /* Venders */,
 				259F4ED31BCE24CC0046D761 /* Main.storyboard */,
-				259F4ED61BCE24CC0046D761 /* Assets.xcassets */,
+				68602B4E1BCFA5C10075F41F /* Media.xcassets */,
 				259F4ED81BCE24CC0046D761 /* LaunchScreen.storyboard */,
 				259F4EDB1BCE24CC0046D761 /* Info.plist */,
 				259F4ECA1BCE24CC0046D761 /* Supporting Files */,
@@ -1607,7 +1607,7 @@
 				259F50BD1BCE25710046D761 /* LICENSE in Resources */,
 				259F4EDA1BCE24CC0046D761 /* LaunchScreen.storyboard in Resources */,
 				259F50C61BCE25710046D761 /* UMShareEditViewControlleriPad.xib in Resources */,
-				259F4ED71BCE24CC0046D761 /* Assets.xcassets in Resources */,
+				68602B4F1BCFA5C10075F41F /* Media.xcassets in Resources */,
 				259F50C91BCE25710046D761 /* UMSShareListController.xib in Resources */,
 				259F50D21BCE25710046D761 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				259F50C71BCE25710046D761 /* UMSLoginViewController.xib in Resources */,
@@ -1892,6 +1892,7 @@
 			baseConfigurationReference = A583F516159947E600FD2CA8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WeChatPro/Venders/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -1923,6 +1924,7 @@
 			baseConfigurationReference = A1945406AAEF861A7DF7A11F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WeChatPro/Venders/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",

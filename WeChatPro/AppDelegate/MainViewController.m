@@ -58,7 +58,7 @@
     [[UINavigationBar appearance] setTitleTextAttributes:params];
     
     [[UINavigationBar appearance] setBackgroundImage:[UIImage resizableImageWithColor:colorNavigationBar] forBarMetrics:UIBarMetricsDefault];
-    UIImage *squareImage = [UIImage imageNamed:@"imagered"];
+    UIImage *squareImage = [UIImage imageNamed:@"Image"];
     squareImage = [squareImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     WSTabBarItem *homeTabBarItem       = [[WSTabBarItem alloc] initWithTitle:@"商品"
                                                                        image:squareImage

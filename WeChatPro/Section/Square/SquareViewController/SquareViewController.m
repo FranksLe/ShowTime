@@ -9,7 +9,6 @@
 #import "SquareViewController.h"
 
 @interface SquareViewController ()
-
 @end
 
 @implementation SquareViewController
@@ -47,11 +46,17 @@
         cell = [[SquareListTableViewCell alloc] initWithStyle:(UITableViewCellStyleValue2) reuseIdentifier:cellde];
     }
     if (indexPath.row == 0) {
+        UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(5, 10, 30, 30)];
+        imageView.image  = [UIImage imageNamed:@"Image-1" ];
+        [cell addSubview:imageView];
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(40, 10, 150, 30)];
         label.text = @"代理商";
         [cell addSubview:label];
     }
     if (indexPath.row == 1) {
+        UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(5, 10, 30, 30)];
+        imageView.image  = [UIImage imageNamed:@"Image" ];
+        [cell addSubview:imageView];
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(40, 10, 150, 30)];
         label.text = @"供应商";
         [cell addSubview:label];
