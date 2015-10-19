@@ -1,23 +1,24 @@
 //
-//  MineViewController.m
+//  TabbarThreeViewController.m
 //  WeChatPro
 //
 //  Created by 李赐岩 on 15/10/17.
 //  Copyright © 2015年 李赐岩. All rights reserved.
 //
 
-#import "MineViewController.h"
+#import "TabbarThreeViewController.h"
 
-@interface MineViewController ()
+@interface TabbarThreeViewController ()
 
 @end
 
-@implementation MineViewController
+@implementation TabbarThreeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor purpleColor];
+    self.view.backgroundColor = [UIColor greenColor];
+    
     // Do any additional setup after loading the view.
 }
 

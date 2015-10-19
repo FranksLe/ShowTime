@@ -32,8 +32,11 @@ static NSString *const kChannelID = @"appstore";
     [self setupShareSetting];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [[MainViewController alloc] init];
     [self.window makeKeyAndVisible];
+    MainViewController *tabbarVC = [[MainViewController alloc] init];
+    UINavigationController *naVC1 = [[UINavigationController alloc] initWithRootViewController:tabbarVC];
+    [naVC1.navigationBar setBarTintColor:[UIColor colorWithRed:250 / 255.0  green:192 / 255.0 blue:236 / 255.0 alpha:1.0]];
+    self.window.rootViewController = tabbarVC;
     if ([NetworkManager isConnectionAvailable]) {
 
     }

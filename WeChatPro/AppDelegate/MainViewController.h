@@ -7,7 +7,27 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SquareViewController.h"
+#import "TabbarTwoViewController.h"
+#import "TabbarThreeViewController.h"
+#import "MineViewController.h"
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : 0)
+#define addHeight 88
 
-@interface MainViewController : UITabBarController
+@protocol tabbarDelegate <NSObject>
+
+-(void)touchBtnAtIndex:(NSInteger)index;
+
+@end
+@class TabbarView;
+@interface MainViewController : UITabBarController<tabbarDelegate>
+
+@property(nonatomic, strong) TabbarView *tabbar;
+@property(nonatomic, strong) SquareViewController *squareVC;
+@property(nonatomic, strong) TabbarTwoViewController *tabbarTwoVC;
+@property(nonatomic, strong) TabbarThreeViewController *tabbarThreeVC;
+@property(nonatomic, strong) MineViewController *mineVC;
+@property(nonatomic, strong) NSMutableArray *array;
+
 
 @end

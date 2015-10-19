@@ -248,7 +248,6 @@
             failure(error);
         }
     }];
-    
     [self printRequestInfo:operation];
     [self.operationQueue addOperation:operation];
     return operation;

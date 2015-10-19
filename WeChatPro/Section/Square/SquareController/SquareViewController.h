@@ -1,5 +1,5 @@
 //
-//  MineViewController.h
+//  SquareViewController.h
 //  WeChatPro
 //
 //  Created by 李赐岩 on 15/10/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MineViewController : UIViewController
+@interface SquareViewController : UIViewController
 
 @end
