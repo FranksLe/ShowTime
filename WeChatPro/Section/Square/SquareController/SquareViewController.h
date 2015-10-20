@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SquareFirstViewController.h"
+#import "SquareSecondViewController.h"
 
 @interface SquareViewController : UIViewController
+@property(nonatomic,assign) BOOL isOn;
+@property(nonatomic, strong) SquareFirstViewController *firstVC;
+@property(nonatomic, strong) SquareSecondViewController *secondVC;
 
 @end

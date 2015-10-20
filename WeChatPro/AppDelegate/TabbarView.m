@@ -29,9 +29,6 @@
     // 改变tabbarview的通知
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeFrame) name:@"changeFrame" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeNewFrame) name:@"changeFrame1" object:nil];
-    
-    UIImage *centerImage = [UIImage imageNamed:@"centerImage"];
-    UIImage *centerImage1 = [UIImage imageNamed:@"centerImage"];
     // 设置弹出按钮
     QuadCurveMenuItem *carmeraMenuItem = [[QuadCurveMenuItem alloc] initWithImage:[UIImage imageNamed:@"cameraImage"] highlightedImage:[UIImage imageNamed:@"cameraImage"] ContentImage:[UIImage imageNamed:@"cameraImage"] highlightedContentImage:nil];
     QuadCurveMenuItem *viodeMenuItem = [[QuadCurveMenuItem alloc] initWithImage:[UIImage imageNamed:@"newFuctionImage"] highlightedImage:[UIImage imageNamed:@"newFuctionImage"] ContentImage:[UIImage imageNamed:@"newFuctionImage"] highlightedContentImage:nil];
